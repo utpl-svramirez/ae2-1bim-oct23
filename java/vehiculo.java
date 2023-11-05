@@ -30,5 +30,3 @@ public class vehiculo{
         this.capacidadPasajeros = capacidadPasajeros;
     }
 }
-
-//se valida clases
