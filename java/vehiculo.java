@@ -22,7 +22,7 @@ public class vehiculo{
         this.modeloVehiculo = modeloVehiculo;
     }
 
-    public int getCantidadPasajero() {
+    public int getCantidadPasajeros() {
         return cantidadPasajeros;
     }
 

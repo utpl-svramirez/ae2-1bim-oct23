@@ -1,8 +1,8 @@
 class empresa:
-    def __init__(self, nombre, sector, años_activa):
+    def __init__(self, nombre, sector, cant_sucursales):
         self.nombre = nombre
         self.sector = sector
-        self.años_activa = años_activa
+        self.cant_sucursales = cant_sucursales
 
     def get_nombre(self):
         return self.nombre
@@ -10,8 +10,8 @@ class empresa:
     def get_sector(self):
         return self.sector
 
-    def get_años_activa(self):
-        return self.años_activa
+    def get_cant_sucursales(self):
+        return self.cant_sucursales
 
     def set_nombre(self, nombre_registro):
         self.nombre = nombre_registro
@@ -19,5 +19,5 @@ class empresa:
     def set_sector(self, sector_registro):
         self.sector = sector_registro
 
-    def set_años_activa(self, años_activa_act):
-        self.faños_activa = años_activa_act
+    def set_cant_sucursales(self, cant_sucursales_act):
+        self.cant_sucursales = cant_sucursales_act
