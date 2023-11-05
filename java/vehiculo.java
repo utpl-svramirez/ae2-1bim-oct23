@@ -4,7 +4,7 @@ public class vehiculo{
    
     private String marcaVehiculo;
     private String modeloVehiculo;
-    private int cantidadPasajeros;  
+    private int capacidadPasajeros;  
 
     public String getMarcaVehiculo() {
         return marcaVehiculo;
@@ -22,11 +22,13 @@ public class vehiculo{
         this.modeloVehiculo = modeloVehiculo;
     }
 
-    public int getCantidadPasajeros() {
-        return cantidadPasajeros;
+    public int getCapacidadPasajeros() {
+        return capacidadPasajeros;
     }
 
-    public void setCantidadPasajeros(int cantidadPasajeros) {
-        this.cantidadPasajeros = cantidadPasajeros;
+    public void setCapacidadPasajeros(int capacidadPasajeros) {
+        this.capacidadPasajeros = capacidadPasajeros;
     }
 }
+
+//se valida clases
